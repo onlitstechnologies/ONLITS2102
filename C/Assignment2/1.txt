@@ -1,0 +1,12 @@
+Algorithm: To accept two integers and find the larger one
+Input:	integers a, b
+Output; a or b whichever is larger
+
+1. Start
+2. Read a, b
+3. if(a>b)
+		Print a
+    else
+    	Print b
+    (End if)
+4.	Stop

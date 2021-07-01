@@ -1,0 +1,9 @@
+Algorithm: Accept a number and find whether it is even or odd.
+	1. Start
+	2. Read n
+	3. If n mod 2 = 0
+		Print "Even"
+	   Else
+	   	Print "Odd"
+	   (End of If Statement)
+	4. Stop
