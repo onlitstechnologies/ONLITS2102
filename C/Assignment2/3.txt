@@ -1,0 +1,21 @@
+Algorithm: Program to accept marks scored by a student in a test
+			and find his/her grade.
+Input: marks
+Output: Grade on the given condition
+
+1. Start
+2. Read marks
+3. if (marks>=80) then
+		Printf "A"
+	else
+		if (marks>=60) then
+			Print "B"
+		else
+			if(marks>=40) then
+				Print "C"
+			else
+				Print "D"
+			(end if)
+		(end if)
+	(end if)
+4. Stop

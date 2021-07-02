@@ -1,0 +1,22 @@
+Algorithm: To accept a year and find whether it is a leap year or 
+			a common year
+Input: year
+Ouput:	leap or common
+
+1. 	Start
+2. 	Read year
+3. 	If(year mod 4 = 0) then
+		if(year mod 100 <> 0)
+			Print "Leap Year"
+		Else
+			Print "Commong Year"
+	Else
+		Print "Common Year"
+	(End If)
+	
+	
+4	If(year mod 400 == 0)
+		Print ("Leap Year")
+	Else
+		Print("Common Year")
+5.	Stop
