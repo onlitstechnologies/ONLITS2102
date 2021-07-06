@@ -9,14 +9,12 @@ Ouput:	leap or common
 		if(year mod 100 <> 0)
 			Print "Leap Year"
 		Else
-			Print "Commong Year"
+			If(year mod 400 == 0)
+				Print ("Leap Year")
+			Else
+				Print("Common Year")
 	Else
 		Print "Common Year"
 	(End If)
 	
-	
-4	If(year mod 400 == 0)
-		Print ("Leap Year")
-	Else
-		Print("Common Year")
-5.	Stop
+4.	Stop
