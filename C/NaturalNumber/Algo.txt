@@ -1,0 +1,7 @@
+Algorithm: To display first n natural numbers
+Step 1: Start
+Step 2: Read n
+Step 3: For i = 1 to n
+            Print i
+        Next i
+Step 4: Stop
