@@ -1,0 +1,12 @@
+h1.brand {
+    color:white;
+}
+
+td.brand {
+    background-color: darkorange;
+}
+
+td.menu {
+    background-color: green;
+    color: white;
+}
