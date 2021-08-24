@@ -10,3 +10,10 @@ td.menu {
     background-color: green;
     color: white;
 }
+
+input.form {
+    width: 300;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+}
