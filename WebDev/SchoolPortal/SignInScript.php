@@ -9,6 +9,7 @@ $con = new mysqli("localhost","vishal","vishal","school_2102");
 $result = $con->query($sql);
 
 if($result->num_rows>0)
-    echo "<script>window.location.href=Dashboard.php</script>";
+    echo "<script>window.location.href='Dashboard.php'</script>";
 else
     echo "<script>alert('Invalid username or password');</script>";
+    echo "<script>window.location.href='SignIn.html'</script>";

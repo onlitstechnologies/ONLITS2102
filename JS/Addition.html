@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Addition</title>
+</head>
+
+<body>
+    <label for="">Augend</label>
+    <input type="text" name="augend" id="augend"> <br> <br>
+    <label for="">Addend</label>
+    <input type="text" name="addend" id="addend"> <br> <br>
+    <label for="">Sum</label>
+    <input type="text" name="sum" id="sum"> <br> <br>
+    <button onclick="sum()">Add</button>
+    <script>
+        function sum() {
+            a = Number(document.getElementById('augend').value);
+            b = Number(document.getElementById('addend').value);
+            c = a + b;
+            document.getElementById('sum').value = c;
+        }
+    </script>
+</body>
+
+</html>
