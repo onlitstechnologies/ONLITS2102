@@ -6,7 +6,7 @@ int main()
     float area, r;
     printf("Enter radius: ");
     scanf("%f", &r);
-    area = pi() * r * r;
+    area = pi() * r * r;                //Function call
     printf("Area is: %f\n", area);
     return 0;
 }

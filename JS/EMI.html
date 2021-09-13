@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>EMI Calculator</title>
+</head>
+
+<body>
+    <form>
+        <label for="principal">Princial</label>
+        <input type="text" name="principal" id="principal"> <br> <br>
+        <label for="rate">Rate</label>
+        <input type="text" name="rate" id="rate"> <br> <br>
+        <label for="tenure">Tenure</label>
+        <input type="text" name="tenure" id="tenure"> <br> <br>
+        <label for="emi">EMI</label>
+        <output name="emi" id="emi" for="emi"></output> <br><br>
+        <label for="interest">Total interest</label>
+        <output name="interest" id="interest" for=""></output> <br><br>
+        <label for="payment">Total Payment</label>
+        <output name="payment" id="payment" for=""></output> <br><br>
+        <button type="button" onclick="calculate_emi()">Calculate</button>
+    </form>
+
+    <script>
+        function calculate_emi()
+        {
+            p = document.getElementById("principal").value;
+            r = document.getElementById("rate").value;
+            n = document.getElementById("tenure").value;
+
+            r = r / (12 * 100);
+            emi = (p * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+            alert(emi);
+
+            document.getElementById("emi").value = emi;
+
+            total = emi * 12;
+            document.getElementById("payment").value = total;
+            interest = total - p;
+            document.getElementById("interest").value = interest;
+        }
+    </script>
+</body>
+
+</html>
