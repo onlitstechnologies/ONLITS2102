@@ -1,27 +1,22 @@
 /*
     Program to demonstrate category 1 of function
-    Dated: 25/10/2021
+    Dated: 28/10/2021
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
-#define PI 3.14         //contant definition
-#define x(y) y*y        //macro definition
-
-int fun();            //function declaration/prototyp
-int a, b;               //global variable declaration
+void clrscr();              //Function Declaration/Prototype
 
 int main()
 {
-    printf("%d", fun());
+    clrscr();               //Function call
+    printf("Testing category 1 of function.\n");
+    return 0;
 }
 
-int fun()
+//---- Function definition -----
+void clrscr()
 {
-    return 100;
-}
-
-void fun2()
-{
-    return 50;
+    system("clear");
 }

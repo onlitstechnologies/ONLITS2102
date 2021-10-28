@@ -4,7 +4,7 @@ int main()
 {
     char name[30];
     int len;
-    printf("Enter you name: ");
+    printf("Enter your name: ");
     scanf("%[^\n]", name);
     len = strlen(name);
     printf("Your name contains %d characters.\n", len);
